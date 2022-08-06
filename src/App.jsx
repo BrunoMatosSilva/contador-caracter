@@ -23,7 +23,6 @@ function App() {
       value={text}
       onChange={updateCaracteres}
       placeholder="Digite ou cole o que deseja contar" 
-      onClick={() => contaCaracteres(text)}
       />
       <section className="length-container">
         <p>contagem de caracteres:</p><span>{text.length}</span>
